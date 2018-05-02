@@ -14,11 +14,6 @@
 
     <!-- CSS  -->
     <link href="testCSS.css" rel="stylesheet">
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <!-- External javascript file -->
-    <script src="javascript/characterLeft.js"></script>
   </head>
 
   <body>
@@ -35,9 +30,9 @@
               <h4 class="text-white">Navigation</h4>
               <ul class="list-unstyled">
                 <li><a href="https://samiso443.github.io/home.html" class="text-white">Home</a></li>
-                <li><a href="https://samiso443.github.io/about.html" class="text-white">About</a></li>
+                <li><a href="https://samiso443.github.io/about.html" class="text-white"><u>About</u></a></li>
                 <li><a href="https://samiso443.github.io/getstarted.html" class="text-white">Get Started</a></li>
-                <li><a href="https://samiso443.github.io/contact.html" class="text-white"><u>Contact Us</u></a></li>
+                <li><a href="https://samiso443.github.io/contact.html" class="text-white">Contact Us</a></li>
               </ul>
             </div>
           </div>
@@ -59,46 +54,65 @@
 
     <main role="main">
 
-      <!-- <section class="jumbotron text-center" style="background: url('images/umd-entrance.jpg') no-repeat 0 -260px; background-size: 1300px 800px; min-height: 395px;">
+      <section class="jumbotron text-center" style="background: url('images/umd-entrance.jpg') no-repeat 0 -260px; background-size: 1300px 800px; min-height: 395px;">
         <div class="container">
-          <h1 class="jumbotron-heading">UMD On-Campus Housing</h1>
+          <!-- <h1 class="jumbotron-heading">UMD On-Campus Housing</h1>
           <p class="lead">We can put a short comment or a catchy phrase here</p>
           <p>
-            <a href="#" class="btn btn-danger my-2" style="background-color: #ce231a;">Log In</a>
-          </p>
+            <a href="#" class="btn btn-danger my-2" style="background-color: #ce231a;">Log In</a> 
+          </p> -->
         </div>
-      </section> -->
+      </section>
 
+<!-- Residence Hall information -->
       <div class="album py-5 bg-light">
-        <div class="contact-header">
-        	<p>Contact Us</p>
+        <div class="hall-header">
+        	<p>Ellicott Hall</p>
         </div>
 
         <div class="container" style="padding-top: 2rem;">
-          <div class="col-md-5">
-            <div class="form-area">
-              <form role="form">
-              <br style="clear:both">
-                  <div class="form-group">
-                    <input type="text" class="form-control" id="first-name" name="first_name" placeholder="First Name" required>
-                  </div>
-                  <div class="form-group">
-                    <input type="text" class="form-control" id="last-name" name="last_name" placeholder="Last Name" required>
-                  </div>
-                  <div class="form-group">
-                    <input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
-                  </div>
-                  <div class="form-group">
-                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
-                  </div>
-                  <div class="form-group">
-                    <textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="300" rows="7"></textarea>
-                      <span class="help-block"><p id="characterLeft" class="help-block ">You have reached the limit</p></span>
-                  </div>
-              <button type="button" id="submit" name="submit" class="btn btn-danger pull-right">Submit</button>  
-              </form>              
-            </div>
+          <div class="hall-img">
+            <img src="images/ellicott-hall.jpg" height="300" width="400">
+          </div>
+          <div class="row">
             
+            <p>
+              Ellicott Hall is a eight-story, coed, traditional style hall that accommodates close to 607 residents. Rooms range in size from single, double, triple and quad and each floor has a large community bathroom for residents to share. Located nearby are Byrd Stadium, the Eppley Recreation Center, and the Stamp Student Union. 
+            </p>
+            <!-- <h6>Amenities</h6> -->
+
+            <table class=" table table-striped">
+              <tr>
+                <td colspan="2" class="amen-heading bg-danger">Amenities</td>
+              </tr>
+              <tr>
+                <td>Styles</td>
+                <td>Singles, Doubles, Triples</td>
+              </tr>
+              <tr>
+                <td>Air Conditioning</td>
+                <td>No</td>
+              </tr>
+              <tr>
+                <td>Laundry Facility</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Mail Facility</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Study Lounges</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Gender</td>
+                <td>Single, Mixed</td>
+              </tr>
+            </table>
+            <!-- <p>
+              By allowing users to optionally include (or exclude) style, amenities, and other popular categories, we are improving the quality of their searches. Making searches more user-centered, customizable, and interactive, saves users time and effort; in turn, rendering their decision-making process a whole lot easier. Thus, improving overall University of Maryland residential experience.
+            </p> -->
           </div>
         </div>
       </div>
